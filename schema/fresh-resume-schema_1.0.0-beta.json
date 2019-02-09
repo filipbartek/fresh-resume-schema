@@ -82,6 +82,7 @@
 
         "commitment": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "description": "Types of work commitment desired: contract, perm, seasonal, etc.",
           "items": {
@@ -107,6 +108,7 @@
 
             "destinations": {
               "type": "array",
+              "mergeStrategy": "append",
               "description": "Preferred destinations for relocation",
               "additionalItems": false,
               "items": {
@@ -146,6 +148,7 @@
 
         "other": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "items": {
             "type": "object",
@@ -222,6 +225,7 @@
 
         "history": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "items": {
             "type": "object",
@@ -296,6 +300,7 @@
 
     "projects": {
       "type": "array",
+      "mergeStrategy": "append",
       "additionalItems": false,
       "description": "The 'projects' section describes the candidate's project history -- not the jobs the candidate has worked but the specific projects and enterprises the candidate has created or been involved in, whether paid or unpaid.",
       "items": {
@@ -416,6 +421,7 @@
 
         "sets": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "optional": true,
           "items": {
@@ -448,6 +454,7 @@
 
         "list": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
 
           "items": {
@@ -497,6 +504,7 @@
 
         "history": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "items": {
             "type": "object",
@@ -598,6 +606,7 @@
 
         "history": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "items": {
             "type": "object",
@@ -697,6 +706,7 @@
 
     "social": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'social' section describes the candidate's participation in internet and social networking services and communities including GitHub, FaceBook, and the like.",
       "additionalItems": false,
       "items": {
@@ -733,6 +743,7 @@
 
     "recognition": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'recognition' section describes the candidate's public or professional plaudits, kudos, awards, and other forms of positive external reinforcement.",
       "additionalItems": false,
       "items": {
@@ -780,6 +791,7 @@
 
     "writing": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'writing' section describes the candidate's writing and publication history, from blogs and essays to novels and dissertations.",
       "additionalItems": false,
       "items": {
@@ -840,6 +852,7 @@
 
     "reading": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'reading' section describes the candidate's reading habits and is intended to demonstrate familiarity with industry-relevant publications, blogs, books, or other media that a competent industry candidate should be expected to know.",
       "additionalItems": false,
       "items": {
@@ -893,6 +906,7 @@
 
     "speaking": {
       "type": "array",
+      "mergeStrategy": "append",
       "additionalItems": false,
       "section": "The 'speaking' section describes the candidate's speaking engagements and presentations.",
       "items": {
@@ -947,6 +961,7 @@
 
     "governance": {
       "type": "array",
+      "mergeStrategy": "append",
       "additionalItems": false,
       "description": "The 'governance' section describes the candidate's leadership, standards, board, and committee roles.",
       "items": {
@@ -1015,6 +1030,7 @@
 
     "languages": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'languages' section describes the candidate's knowledge of world languages such as English, Spanish, or Chinese.",
       "additionalItems": false,
       "items": {
@@ -1045,6 +1061,7 @@
 
     "samples": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'samples' section provides an accessible demonstration of the candidate's portfolio or work product to potential employers and co-workers.",
       "additionalItems": false,
       "items": {
@@ -1103,6 +1120,7 @@
 
     "references": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'references' section describes the candidate's personal, professional, and/or technical references.",
       "additionalItems": false,
       "items": {
@@ -1169,6 +1187,7 @@
 
     "testimonials": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'testimonials' section contains public testimonials of the candidate's professionalism and character.",
       "additionalItems": false,
       "items": {
@@ -1204,6 +1223,7 @@
 
     "interests": {
       "type": "array",
+      "mergeStrategy": "append",
       "additionalItems": false,
       "description": "The 'interests' section provides a sampling of the candidate's interests and enthusiasms outside of work.",
       "items": {
@@ -1238,6 +1258,7 @@
 
     "extracurricular": {
       "type": "array",
+      "mergeStrategy": "append",
       "description": "The 'extracurricular' section describes the candidate's involvement with industry-related events and enterprises outside of work. For example: attending conferences, workshops, or meetups.",
       "additionalItems": false,
       "items": {
@@ -1286,6 +1307,7 @@
 
         "history": {
           "type": "array",
+          "mergeStrategy": "append",
           "additionalItems": false,
           "items": {
             "type": "object",
